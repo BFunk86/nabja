@@ -1,0 +1,13 @@
+/** This puts the banner at the top of the page **/
+#banner {
+    display: block;
+    background-image: url("../media/Banner.jpg");
+    background-repeat: repeat;
+    background-position: 0 0;
+    background-color: #00693C;
+    border-color: transparent;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    height: 89px;
+}
