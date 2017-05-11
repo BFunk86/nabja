@@ -2,12 +2,81 @@
 #banner {
     display: block;
     background-image: url("../media/Banner.jpg");
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-position: 0 0;
-    background-color: #00693C;
+    background-color: #00693c;
     border-color: transparent;
     -moz-box-shadow: none;
     -webkit-box-shadow: none;
     box-shadow: none;
     height: 89px;
+}
+
+
+/* Styles to override bootstrap colors */
+
+/* Sets the style font style for heading */
+h1, h2, h3, h4, h5, h6, nav ul li a, label, caption {
+    font-family: "Trebuchet MS" !important;
+}
+
+nav {
+    margin-bottom: 1em !important;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden;
+    background-color: #f0ab00;
+}
+
+nav li {
+    border-right:1px solid #bbb !important;
+}
+
+/* This pushes the first nav link to the righ a little */
+nav li:first-child {
+    margin-left: 3em;
+}
+
+nav li:last-child {
+    border-right: none;
+}
+
+nav li a {
+    display: block;
+    color: #024925 !important;
+    font-weight: bold;
+    font-size: 1.25em !important;
+    text-align: center !important;
+    padding: 14px 16px !important;
+    text-decoration: none !important;
+}
+
+nav li a:hover:not(.active) {
+    background-color: #f8de6e !important;
+}
+
+.active {
+    background-color: #f8de6e;
+}
+
+#login {
+    borer-right: none !important;
+}
+
+#footer {
+    background-color: #024925;
+    width: 100%;
+}
+
+#footer p {
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    font-size: 15px;
+    margin: 20px;
+    padding: 15px;
 }
