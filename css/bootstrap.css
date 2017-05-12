@@ -2487,15 +2487,15 @@ table th[class*="col-"] {
 }
 /** This changes the stlyes for the main legend **/
 legend > h1 {
-  background-color: #024925;
-  color: #FDB913;
+  background-color: #00693c;
+  color: #F0ab00;
   padding: .2em .4em;
 }
 
 /** This changes the stlyes for the sub legends **/
 legend > h2 {
-  background-color: #024925;
-  color: #FDB913;
+  background-color: #00693c;
+  color: #F0ab00;
   padding: .2em .4em;
   margin-top: .2em;
 }
@@ -4491,11 +4491,11 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   border-color: #f0ab00;
 }
 .navbar-default .navbar-brand {
-  color: #777;
+  color: #00693c;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #5e5e5e;
+  color: #00693c;
   background-color: transparent;
 }
 .navbar-default .navbar-text {

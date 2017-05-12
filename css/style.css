@@ -33,7 +33,7 @@ nav ul {
 }
 
 nav li {
-    border-right:1px solid #bbb !important;
+    border-right: 1px solid #bbb !important;
 }
 
 /* This pushes the first nav link to the righ a little */
@@ -42,7 +42,7 @@ nav li:first-child {
 }
 
 nav li:last-child {
-    border-right: none;
+    border-right: none !important;
 }
 
 nav li a {
@@ -79,4 +79,19 @@ nav li a:hover:not(.active) {
     font-size: 15px;
     margin: 20px;
     padding: 15px;
+}
+
+/** [Report Page] **/
+.thead {
+    background-color: #00693c !important;
+    white-space: nowrap !important;
+    color: #f8de6e !important;
+}
+
+#head {
+    background-color: #00693c;
+}
+
+td, th {
+    padding: 5px;
 }
