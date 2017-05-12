@@ -70,15 +70,18 @@ nav li a:hover:not(.active) {
 #footer {
     background-color: #024925;
     width: 100%;
+    padding: 25px 15px 10px 15px;
 }
 
 #footer p {
     text-align: center;
-    font-weight: bold;
     color: #fff;
-    font-size: 15px;
-    margin: 20px;
-    padding: 15px;
+    font-size: 14px;
+}
+
+#footer p a {
+    text-decoration: none;
+    color: #fff;
 }
 
 /** [Report Page] **/
@@ -94,4 +97,10 @@ nav li a:hover:not(.active) {
 
 td, th {
     padding: 5px;
+}
+
+/**[Modal Styles]**/
+.smallLogo {
+    max-width: 150px;
+    margin: 0 auto;
 }

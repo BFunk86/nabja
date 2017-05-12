@@ -1,5 +1,5 @@
 <?php
-    require_once("inc_header.php");
+    require_once("inc_head.php");
     require_once("inc_nav.php");
 ?>
 
@@ -83,7 +83,7 @@
                     </tbody>
                 </table>
             </div>
-            <div id="pdf">
+            <div id="pdf" class="pull-right">
                 <a href="pdf.php"><img id="pdf-icon" src="media/pdf-icon.png"> Generate PDF</a>
             </div>
         </fieldset>
@@ -92,6 +92,7 @@
 <?php
     require_once("inc_footer.php");
     require_once("inc_login.php");
+    require_once("inc_scripts.php");
 ?>
 
 </body>

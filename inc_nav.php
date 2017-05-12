@@ -17,8 +17,8 @@
                 <ul class="nav navbar-nav">
                     <li id="home"><a href="index.php">Home</a></li>
                     <li id="report"><a href="report.php">Report</a></li>
-                    <li id="create"><a href="create.html">Create</a></li>
-                    <li id="relations"><a href="relations.html">Relations</a></li>
+                    <li id="create"><a href="create.php">Create</a></li>
+                    <li id="relations"><a href="relations.php">Relations</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                     <li id="login"><a href="#login" data-toggle="modal" data-target="#loginModal">Login <i class="fa fa-sign-in" aria-hidden="true"></i></a></li>

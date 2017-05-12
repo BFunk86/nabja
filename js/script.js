@@ -2,19 +2,32 @@
  * Created by Brandon Young
  */
 
-// Add the active class to the current nav menu
-var path = window.location.pathname;
 
-console.log(path);
+$(document).ready(function(){
 
-switch (path) {
-    case "/nabja2/report.php":
-        $("#report").addClass("active");
-        break;
-    case "/nabja2/create.php":
-        $("#create").addClass("active");
-    case "/nabja2/relations.php":
-        $("#relations").addClass("active");
-    default:
-        $("#index").addClass("active");
-}
+    var path = window.location.pathname;
+    // Add the active class to the current nav menu
+    switch (path) {
+        case "/nabja2/report.php":
+            $("#report").addClass("active");
+            break;
+        case "/nabja2/create.php":
+            $("#create").addClass("active");
+            break;
+        case "/nabja2/relations.php":
+            $("#relations").addClass("active");
+            break;
+        default:
+            $("#home").addClass("active");
+    } // end switch
+
+
+    // Close login modal when create user clicked
+    $("#createUser").click(function() {
+        $("#loginModal").modal('hide');
+    });
+});
+
+jQuery(document).ready(function ($) {
+    $(".tabs").tabs();
+});
