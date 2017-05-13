@@ -27,7 +27,3 @@ $(document).ready(function(){
         $("#loginModal").modal('hide');
     });
 });
-
-jQuery(document).ready(function ($) {
-    $(".tabs").tabs();
-});

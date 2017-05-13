@@ -2,7 +2,7 @@
 <header>
     <!-- This is where the JCC banner will go -->
     <div id="banner"></div>
-    <nav class="navbar navbar-default" role="navigation">
+    <div class="navbar navbar-default" role="navigation">
         <div class="container-fluid">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
@@ -25,5 +25,5 @@
                 </ul>
             </div><!-- /.navbar-collapse -->
         </div>
-    </nav>
+    </div>
 </header>
