@@ -1,6 +1,7 @@
 
 body {
     min-width: 100%;
+    color: #414042;
 }
 
 /** This puts the banner at the top of the page **/
@@ -18,15 +19,12 @@ body {
 }
 
 
-/* Styles to override bootstrap colors */
-
 /* Sets the style font style for heading */
 h1, h2, h3, h4, h5, h6, nav ul li a, label, caption {
     font-family: "Trebuchet MS", sans-serif !important;
 }
 
-
-
+/**[FOOTER PAGE]**/
 
 #footer {
     background-color: #024925;
@@ -45,7 +43,7 @@ h1, h2, h3, h4, h5, h6, nav ul li a, label, caption {
     color: #fff;
 }
 
-/** [Report Page] **/
+/** [REPORT PAGE] **/
 .thead {
     background-color: #00693c !important;
     white-space: nowrap !important;
@@ -54,14 +52,37 @@ h1, h2, h3, h4, h5, h6, nav ul li a, label, caption {
 
 #head {
     background-color: #00693c;
+    border: 1px solid #00693c;
 }
 
 td, th {
     padding: 5px;
 }
 
-/**[Modal Styles]**/
+/**[MODAL STYLES]**/
 .smallLogo {
     max-width: 150px;
     margin: 0 auto;
+}
+
+/**[RELATIONS PAGE]**/
+#relationsTable {
+    width: 100%;
+}
+
+table#relationsTable td {
+    text-align: center;
+}
+
+#scroll {
+    height: 500px;
+    overflow: auto;
+}
+
+th.centerHead {
+    text-align: center;
+}
+
+#updateRelations {
+    margin-top: 10px;
 }

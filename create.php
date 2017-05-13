@@ -15,7 +15,7 @@
                         <li role="presentation"><a href="#program" data-toggle="tab">Program</a></li>
                         <li role="presentation"><a href="#genEd" data-toggle="tab">General Education</a></li>
                     </ul>
-
+                    <br>
 
                     <div class="tab-content">
 

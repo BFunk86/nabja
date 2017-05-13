@@ -10,7 +10,7 @@
                 <h1>Report</h1>
             </legend>
             <div id="scroll1">
-                <table class="table">
+                <table class="table-bordered" id="reportTable">
                     <thead>
                         <tr id="head">
                             <th nowrap><p class="thead" bgcolor="#00693c">Course ID</p></th>
